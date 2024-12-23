@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body{
+	background-color: white;
+}
+
+.restaurant-details{
+	width: 50%;
+	margin: 16px auto;
+	margin-bottom: 70px;
+	
+}
+
+.description{
+	
+	background-color: white;
+	padding: 12px;
+	border: 2px solid grey;
+	box-shadow: 5px 10px #bbbbbbff;
+	margin-top: 15px;
+	border-radius: 5px;
+
+
+}
+.description .cuision{
+	
+	color: green;
+	font-size: 12px;
+	margin-left: 17px;
+
+
+
+}
+.rating{
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	margin-bottom: -5px;
+
+}
+
+.rating img{
+	width: 20px;
+    height: 20px;
+}
+
+
+.reach-logo-time{
+	display: flex;
+	font-size: 12px;
+	margin-top: 15px;
+}
+#outlet{
+	position: relative;
+
+	left:-1px;
+	top: -5px;
+}
+#expected-time{
+	position: relative;
+
+	left: -40px;
+	top: 22px;
+}
+.reach-logo-time img{
+	width: 20px;
+    height: 40px;
+    transform: rotate(30deg);
+
+}
+
+.menu-items{
+
+	width: 50%;
+	margin: 16px auto;
+    
+}
+.items-group h1{
+
+    font-size: 20px;
+}
+
+.item{
+	display: flex;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #bbbbbbff;
+
+}
+
+.details h4{
+     margin-bottom: 3px;
+}
+
+.details p{
+	font-size: 15px;
+}
+
+#desc{
+    width: 500px;
+    height: 55px;
+	margin-top: 20px;
+	color: grey;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+.image-cart{
+	width: 150px;
+	
+	
+	
+
+}
+
+.image-cart img{
+     width: 150px;
+     height: 125px;
+     border-radius: 5px;
+     
+}
+.image-cart button{
+	position: relative;
+    left:43px;
+    
+	bottom: 20px;
+	width: 70px;
+	color: green;
+	background-color: white;
+	border: 2px solid green ;
+	padding: 5px 20px;
+	
+
+	
+   
+
+
+}
+
+.hidden{
+	display:none;
+}
+
+

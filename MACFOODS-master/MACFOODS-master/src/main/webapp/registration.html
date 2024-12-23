@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register-style.css">
+    
+</head>
+<body>
+    <div class="register-container">
+        <h1>Create New Account</h1>
+        <form action="Register" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile</label></td>
+                    <td><input type="text" name="mobile" id="mobile" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password</label></td>
+                    <td><input type="password" name="pwd" id="pwd" required></td>
+                </tr>
+                <tr>
+                    <td><label for="confirmpwd">Confirm Password</label></td>
+                    <td><input type="password" name="confirmpwd" id="confirmpwd" required></td>
+                </tr>
+            </table>
+            <input type="submit" name="registersubmit" value="Register">
+            <input type="button" name="Login" value="Login" onclick="window.location.href='login.html';">
+        </form>
+    </div>
+</body>
+</html>
